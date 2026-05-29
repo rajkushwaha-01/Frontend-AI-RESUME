@@ -1,10 +1,10 @@
 import React from 'react'
+import { Router, RouterProvider } from 'react-router'
+import { router } from './app.routes.jsx'
 
 const App = () => {
   return (
-    <div>
-      app
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
