@@ -22,6 +22,7 @@ const Login = () => {
                     </div>
                     <button className="button primary-button" type="submit">Login</button>
                 </form>
+                <p>Don't have an account? <a href="/register">Register here</a></p>
             </div>
         </main>
     )

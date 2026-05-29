@@ -1,4 +1,5 @@
 import React from 'react'
+import {useNavigate , Link} from 'react-router'
 
 const Register = () => {
     const handleSubmit = (e) => {
@@ -22,8 +23,9 @@ const Register = () => {
                         <label htmlFor="password">Password</label>
                         <input type="password" id="password" name="password" placeholder="Enter your password" required />
                     </div>
-                    <button className="button primary-button" type="submit">Login</button>
+                    <button className="button primary-button" type="submit">Register</button>
                 </form>
+                <p>Already have an account? <Link to={"/login"}>Login</Link></p>
             </div>
         </main>
   )
