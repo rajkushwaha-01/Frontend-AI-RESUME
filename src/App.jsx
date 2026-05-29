@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, RouterProvider } from 'react-router'
+import { RouterProvider } from 'react-router-dom'
 import { router } from './app.routes.jsx'
 import { AuthProvider } from './feature/auth/auth.context.jsx'
 
